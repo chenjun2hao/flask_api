@@ -73,7 +73,7 @@ more-itertools==7.0.0
 natsort==6.0.0
 networkx==2.3
 ninja==1.9.0.post1
-nltk==3.4
+nltk==3.4.5
 numba==0.44.1
 numpy==1.18.0
 olefile==0.46
