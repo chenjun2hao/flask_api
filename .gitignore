@@ -1,0 +1,13 @@
+# 
+.vscode/
+.idea/
+
+# pytorch model
+*.pth
+
+#
+__pycache__/
+
+# 
+experiments/
+
