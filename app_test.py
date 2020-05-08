@@ -11,7 +11,7 @@ from src.utils import MyEncoder
 
 if __name__ == "__main__":
     # 路由
-    url = 'http://0.0.0.0:8080/pig_count'
+    url = 'http://192.168.142.70:8080/pig_count'
 
     # prepare image
     imgpath = './CenterNet/images/0001.png'
@@ -22,6 +22,6 @@ if __name__ == "__main__":
     data = {'img' : imageData}
     encode_json = json.dumps(data, cls=MyEncoder)
     headers = {'content-type': 'application/json'}
-    # response = requests.get(url, )
+
     response = requests.post(url, data=encode_json, headers=headers)
     print(response.json())

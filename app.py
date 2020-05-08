@@ -32,8 +32,11 @@ def process_fun():
     '''
     try:
         # 1. 解析图片
+        print('1')
         base64img = request.json['img']
+        print('2')
         img = Base64ToImage(base64img)
+        print(img.shape)
 
         # 2. 调用模型
         detect_result = model.detect(img)
@@ -50,6 +53,7 @@ def process_fun():
         result['flag'] = '0'
         result['nums'] = 0
         result['coordinates'] = '0,0,0,0,0'
+        print('some thing wrong')
 
     return json.dumps(result)
 
