@@ -75,7 +75,7 @@ networkx==2.3
 ninja==1.9.0.post1
 nltk==3.4
 numba==0.44.1
-numpy==1.18.0
+numpy==1.22.0
 olefile==0.46
 onnx==1.5.0
 onnxruntime==0.4.0
