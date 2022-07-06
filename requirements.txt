@@ -34,7 +34,7 @@ graphviz==0.13
 grpcio==1.24.0
 h5py==2.10.0
 helpdev==0.6.10
-html5lib==0.9999999
+html5lib==0.999999999
 idna==2.9
 imagecorruptions==1.0.0
 imageio==2.5.0
