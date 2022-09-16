@@ -59,7 +59,7 @@ kiwisolver==1.1.0
 lazy-object-proxy==1.4.1
 llvmlite==0.29.0
 lmdb==0.94
-Mako==1.0.13
+Mako==1.2.2
 Markdown==3.1.1
 MarkupSafe==1.1.1
 -e git+https://github.com/facebookresearch/maskrcnn-benchmark.git@0ce8f6f64b5c462dc2e8cad14620a188f98b4411#egg=maskrcnn_benchmark
